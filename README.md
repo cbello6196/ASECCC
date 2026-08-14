@@ -97,21 +97,33 @@ El sistema se encuentra preparado para ser desplegado en:
 
 Azure App Service
 
-Autor
+> **Nota:** Este repositorio es un fork del proyecto original de [Ebrenes22](https://github.com/Ebrenes22/ASECCC-Digital). 
+> Participé como parte del equipo de desarrollo, contribuyendo en los módulos detallados a continuación.
 
-Eliecer Brenes Madrigal
-Ingeniero en Sistemas de Computación
-Desarrollador Full Stack .NET
+## Mi aporte en este proyecto
 
-Tecnologías principales:
+Como parte del equipo de desarrollo de ASECCC Digital, trabajé principalmente en los siguientes módulos:
 
-ASP.NET MVC
-.NET Core
-C#
-SQL Server
-Azure
-REST APIs
+**Módulo de Ahorros y Aportes**
+- Desarrollo del CRUD de administración de ahorros y aportes (HU15)
+- Implementación y ajustes del modelo de Ahorros (`AhorroModel`)
+- Corrección de historial de aportes y ahorros
+- Consulta de aportes por asociado
 
-ASECCC Digital nace con el objetivo de modernizar los servicios de la asociación, 
-mejorar la experiencia de los asociados y optimizar la gestión administrativa 
-mediante herramientas digitales seguras, escalables y accesibles.
+**Módulo de Préstamos**
+- Desarrollo del controlador de Préstamos para roles de Administrador y Asociado
+- Actualización del modelo de Préstamos
+- Vistas de consulta de préstamos (Admin y Asociado)
+
+**Módulo de Beneficios y Servicios**
+- Implementación del módulo de beneficios (estado activo/inactivo)
+- Consulta de beneficios y servicios por asociado
+- Ajustes visuales y correcciones
+
+**Reportes y Estados de Cuenta**
+- Desarrollo del módulo de reportes y estado de cuenta
+- Corrección de diseño responsive en tarjetas de reportes
+
+**Otros**
+- Notificaciones para el rol de administrador
+- Ajustes visuales generales y validaciones del módulo de ahorro
